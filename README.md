@@ -1,46 +1,42 @@
-# Getting Started with Create React App
+### In-memory management
+The task uses redux which persist data to local storage.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Tech stack used.
 
-## Available Scripts
+- `typescrip`
+- `reactjs`
+- `redux`
 
-In the project directory, you can run:
 
-### `npm start`
+### Install NVM for managing Node.js versions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The reason for using [nvm](https://github.com/coreybutler/nvm-windows) instead of other install types is mainly in how easy it is to have multiple versions of Node.js (if needed) without too much of extra complexity. Sometimes applications might require a certain version of Node.js to work, so having the flexibility of using specific versions can save a lot of time from you.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Download and install nvm-setup.zip for the stable maintenance release from [here](https://github.com/coreybutler/nvm-windows/releases)
+2. To install Node.js and NPM, open CMD prompt and run
+   - `nvm install latest`
+3. If everything went well, check the Node.js version installed by running
+   - `node -v`
+   - (Another option is to open a new Terminal window/tab.)
+4. Use the installed Node.js version that is outputted from the previous command e.g. v11.12.0
+   - `nvm use 11.12.0`
+5. Install [node-gyp](https://github.com/nodejs/node-gyp), a command-line tool written in Node.js for compiling native addon modules for Node.js
+   - `npm install -g node-gyp`
+6. Install the build tools for compiling native Node.js modules in windows by running
+   - `npm install —global —production windows-build-tools`
 
-### `npm test`
+## Install
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Next up, installing the application use node v12 and above
 
-### `npm run build`
+- `git clone https://github.com/abdilatifbashir/student `
+- `cd student`
+- `npm install`
+- `npm install`
+- `npm start`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### implemented functionality
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app add and delete Student details and manages data on redux that persist to localstorage
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
