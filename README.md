@@ -10,7 +10,7 @@ The task uses redux which persist data to local storage.
 
 ## Requirements
 
-For development, you will only need Node Version Manager (NVM), Node.js and Yarn, installed in your environement.
+For development, you will only need Node Version Manager (NVM), Node.js npm or Yarn, installed in your environement.
 
 ## Mac OS / Linux / Unix
 
