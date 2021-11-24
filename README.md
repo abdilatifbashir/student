@@ -27,7 +27,7 @@ The reason for using [nvm](https://github.com/coreybutler/nvm-windows) instead o
 
 ## Install
 
-Next up, installing the application use node v12 and above
+Next up, installing and running the application use node v12 and above
 
 - `git clone https://github.com/abdilatifbashir/student `
 - `cd student`
